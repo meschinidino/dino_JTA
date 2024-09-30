@@ -1,6 +1,6 @@
 package org.example.dino_jta.repositorios;
 
-import com.example.um1.entidades.Profesor;
+import org.example.dino_jta.entidades.Profesor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

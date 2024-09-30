@@ -18,9 +18,9 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @SpringBootApplication
-public class dino_jtaApplication {
+public class DinoJtaApplication {
 
-	private static final Logger logger = LoggerFactory.getLogger(dino_jtaApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(DinoJtaApplication.class);
 
 	@Autowired
 	private PersonaRepository personaRepository;
@@ -30,7 +30,7 @@ public class dino_jtaApplication {
 	@Autowired
 	private AlumnoRepository alumnoRepository;
 	public static void main(String[] args) {
-		SpringApplication.run(dino_jtaApplication.class, args);
+		SpringApplication.run(DinoJtaApplication.class, args);
 
 		System.out.println("funcionando");
 	}
